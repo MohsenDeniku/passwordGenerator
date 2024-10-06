@@ -54,20 +54,6 @@ generateBtnEl.addEventListener('click', function() {
     secondPasswordEl.style.color = '#55F991'
 })
 
-function turnTexts() {
-    let numberP = document.getElementById('numbers-p')
-    let symbolsP = document.getElementById('symbols-p')
-    if (includeNumbersEl.checked) {
-        numberP.style.color = '#10B981'
-    } else {
-        numberP.style.color = 'orange'
-    }
-    if (includeSymbolsEl.checked) {
-        symbolsP.style.color = '#10B981'
-    } else {
-        symbolsP.style.color = 'orange'
-    }
-}
 
 firstPasswordEl.addEventListener('click', function() {
     navigator.clipboard.writeText(firstPasswordEl.textContent)

@@ -121,7 +121,7 @@ input:checked + .switch-btn::before {
     width: 200px;
     margin-left: 15px;
     padding-bottom: 3px;
-    color: orange;
+    color: #D5D4D8;
 }
 
 
