@@ -57,14 +57,14 @@ generateBtnEl.addEventListener('click', function() {
 
 firstPasswordEl.addEventListener('click', function() {
     navigator.clipboard.writeText(firstPasswordEl.textContent)
-    alert('Copied to Clipboard.')
-    firstPasswordEl.style.color = 'gray'
+    firstPasswordEl.textContent = 'Saved to Clipboard.'
+    firstPasswordEl.style.color = 'orange'
 })
 
 secondPasswordEl.addEventListener('click', function() {
     navigator.clipboard.writeText(secondPasswordEl.textContent)
-    alert('Copied to Clipboard.')
-    secondPasswordEl.style.color = 'gray'
+    secondPasswordEl.textContent = 'Saved to ClipBoard.'
+    secondPasswordEl.style.color = 'orange'
 })
 
 passwordLengthEl.addEventListener('click', function() {
